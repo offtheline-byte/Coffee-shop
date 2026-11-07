@@ -1,6 +1,6 @@
 # Project Deliverables & Scope Summary
 
-**Website Name**: Velvet Bean Roasters  
+**Website Name**: Cafe Mondegar
 **Target Location**: Mumbai, Maharashtra
 **Project Path**: `C:\Users\patil\.gemini\antigravity\scratch\coffee-shop-website`
 

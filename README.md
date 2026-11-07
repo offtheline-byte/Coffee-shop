@@ -1,6 +1,6 @@
-# Velvet Bean Roasters - Single-Page Coffee Shop Website
+# Cafe Mondegar - Single-Page Coffee Shop Website
 
-A modern, responsive, mobile-first single-page website for **Velvet Bean Roasters**. Designed with warm coffee aesthetics (cream, espresso brown, soft caramel accent), smooth micro-animations, menu preview cards, customer reviews section, location map, and direct WhatsApp click-to-chat integration.
+A modern, responsive, mobile-first single-page website for **Cafe Mondegar**. Designed with warm coffee aesthetics (cream, espresso brown, soft caramel accent), smooth micro-animations, menu preview cards, customer reviews section, location map, and direct WhatsApp click-to-chat integration.
 
 ---
 
@@ -16,13 +16,13 @@ Near the top of `index.html` (around line 25), you will see:
 
 ```javascript
 const SITE_CONFIG = {
-  shopName: "Velvet Bean Roasters",
+  shopName: "Cafe Mondegar",
   city: "Mumbai",
   tagline: "Artisanal Coffee & Fresh Pastries Roasted with Passion",
   
   // Phone number formatted with country code (no + or spaces)
   phoneNumber: "15550192834",
-  whatsappMessage: "Hi! I'd like to know more about Velvet Bean Roasters.",
+  whatsappMessage: "Hi! I'd like to know more about Cafe Mondegar.",
   
   instagramHandle: "velvetbeanroasters",
   instagramUrl: "https://instagram.com/velvetbeanroasters",
@@ -52,7 +52,7 @@ const SITE_CONFIG = {
       name: "Aanya Mehta",
       role: "Mumbai Coffee Lover",
       rating: 5,
-      comment: "The Velvet Cappuccino is hands down one of my favorite coffees in Mumbai!",
+      comment: "The Mondegar Cappuccino is hands down one of my favorite coffees in Mumbai!",
       avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80",
       date: "2 days ago"
     }
