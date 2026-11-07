@@ -1,7 +1,7 @@
 # Project Deliverables & Scope Summary
 
 **Website Name**: Velvet Bean Roasters  
-**Target Location**: San Francisco, CA  
+**Target Location**: Mumbai, Maharashtra
 **Project Path**: `C:\Users\patil\.gemini\antigravity\scratch\coffee-shop-website`
 
 ---

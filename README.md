@@ -17,7 +17,7 @@ Near the top of `index.html` (around line 25), you will see:
 ```javascript
 const SITE_CONFIG = {
   shopName: "Velvet Bean Roasters",
-  city: "San Francisco",
+  city: "Mumbai",
   tagline: "Artisanal Coffee & Fresh Pastries Roasted with Passion",
   
   // Phone number formatted with country code (no + or spaces)
@@ -27,7 +27,7 @@ const SITE_CONFIG = {
   instagramHandle: "velvetbeanroasters",
   instagramUrl: "https://instagram.com/velvetbeanroasters",
   
-  address: "452 Espresso Way, Downtown, San Francisco, CA 94105",
+  address: "Cafe Mondegar, 5A Metro House, Shahid Bhagat Singh Road, Colaba, Mumbai, Maharashtra 400001",
   hoursWeekday: "Mon - Fri: 7:00 AM - 7:00 PM",
   hoursWeekend: "Sat - Sun: 8:00 AM - 6:00 PM",
   
@@ -37,7 +37,7 @@ const SITE_CONFIG = {
       id: 1,
       name: "Signature Espresso",
       description: "Rich, velvety double shot brewed from single-origin beans.",
-      price: "$3.50",
+      price: "₹180",
       tag: "House Special",
       image: "images/espresso.png"
     }
@@ -49,10 +49,10 @@ const SITE_CONFIG = {
   reviews: [
     {
       id: 1,
-      name: "Sophia Martinez",
-      role: "Local Coffee Enthusiast",
+      name: "Aanya Mehta",
+      role: "Mumbai Coffee Lover",
       rating: 5,
-      comment: "The Velvet Cappuccino is hands down the best coffee in San Francisco!",
+      comment: "The Velvet Cappuccino is hands down one of my favorite coffees in Mumbai!",
       avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80",
       date: "2 days ago"
     }

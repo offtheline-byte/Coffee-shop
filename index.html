@@ -31,9 +31,9 @@
     const SITE_CONFIG = {
       // 1. SHOP IDENTIFICATION
       shopName: "Velvet Bean Roasters",
-      city: "San Francisco",
+      city: "Mumbai",
       tagline: "Artisanal Coffee & Fresh Pastries Roasted with Passion",
-      aboutStory: "Founded with a passion for single-origin beans and artisanal roasting, Velvet Bean Roasters offers a cozy retreat in the heart of San Francisco. We source our beans ethically from small-batch farmers and roast them daily for the perfect cup.",
+      aboutStory: "Founded with a passion for single-origin beans and artisanal roasting, Velvet Bean Roasters offers a cozy retreat in the heart of Mumbai. We source our beans ethically from small-batch farmers and roast them daily for the perfect cup.",
       
       // 2. CONTACT & SOCIALS
       phoneNumber: "918097086085", // Country code + phone number without + or spaces (e.g. 15550192834)
@@ -42,10 +42,10 @@
       instagramUrl: "https://instagram.com/velvetbeanroasters",
       
       // 3. LOCATION & HOURS
-      address: "452 Espresso Way, Downtown, San Francisco, CA 94105",
+      address: "Cafe Mondegar, 5A Metro House, Shahid Bhagat Singh Road, Colaba, Mumbai, Maharashtra 400001",
       hoursWeekday: "Mon - Fri: 7:00 AM - 7:00 PM",
       hoursWeekend: "Sat - Sun: 8:00 AM - 6:00 PM",
-      googleMapsEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.08648873767!2d-122.40134768468205!3d37.78810097975735!2m3!1f0!1f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858079549f4e2f%3A0x8673752e259b3f3b!2sMarket%20St%2C%20San%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1650000000000!5m2!1sen!2sus",
+      googleMapsEmbedUrl: "https://maps.google.com/maps?q=Cafe%20Mondegar%2C%20Colaba%2C%20Mumbai&t=&z=15&ie=UTF8&iwloc=&output=embed",
       
       // 4. MENU HIGHLIGHTS (6-8 Popular Static Preview Items)
       menuHighlights: [
@@ -53,7 +53,7 @@
           id: 1,
           name: "Signature Espresso",
           description: "Rich, velvety double shot brewed from our single-origin Guatemalan roasted beans with golden crema.",
-          price: "$3.50",
+          price: "₹180",
           tag: "House Special",
           image: "images/espresso.png"
         },
@@ -61,7 +61,7 @@
           id: 2,
           name: "Velvet Cappuccino",
           description: "Silky steamed whole milk poured over rich espresso with custom hand-crafted latte art.",
-          price: "$4.75",
+          price: "₹240",
           tag: "Popular",
           image: "images/cappuccino.png"
         },
@@ -69,7 +69,7 @@
           id: 3,
           name: "Artisanal Cold Brew",
           description: "Slow-steeped for 18 hours for an ultra-smooth, low-acidity dark chocolate notes flavor.",
-          price: "$5.25",
+          price: "₹280",
           tag: "Cold Brew",
           image: "images/cold-brew.png"
         },
@@ -77,7 +77,7 @@
           id: 4,
           name: "Iced Matcha Latte",
           description: "Ceremonial Uji Japanese matcha whisked to order with velvety organic oat milk.",
-          price: "$5.50",
+          price: "₹300",
           tag: "Specialty",
           image: "images/matcha-latte.png"
         },
@@ -85,7 +85,7 @@
           id: 5,
           name: "Sourdough Avocado Toast",
           description: "Toasted sourdough topped with smashed avocado, red pepper flakes, microgreens, and olive oil drizzled.",
-          price: "$8.50",
+          price: "₹380",
           tag: "Fresh Food",
           image: "images/about.png"
         },
@@ -93,7 +93,7 @@
           id: 6,
           name: "French Butter Croissant",
           description: "Flaky, golden hand-rolled butter croissant baked fresh every morning in house.",
-          price: "$4.00",
+          price: "₹160",
           tag: "Fresh Bakery",
           image: "images/hero.png"
         }
@@ -105,25 +105,25 @@
       reviews: [
         {
           id: 1,
-          name: "Sophia Martinez",
-          role: "Local Coffee Enthusiast",
+          name: "Aanya Mehta",
+          role: "Mumbai Coffee Lover",
           rating: 5,
-          comment: "The Velvet Cappuccino is hands down the best coffee in San Francisco! The atmosphere is warm, cozy, and perfect for remote work or meeting friends.",
+          comment: "The Velvet Cappuccino is hands down one of my favorite coffees in Mumbai! The atmosphere is warm, cozy, and perfect for remote work or meeting friends.",
           avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80",
           date: "2 days ago"
         },
         {
           id: 2,
-          name: "David Chen",
-          role: "Regular Customer",
+          name: "Rohan Shah",
+          role: "Colaba Regular",
           rating: 5,
-          comment: "I grab their 18-hour Artisanal Cold Brew every morning before work. Smooth, rich, and never bitter. Friendly baristas and fast service!",
+          comment: "I grab their 18-hour Artisanal Cold Brew whenever I'm around Colaba. Smooth, rich, and never bitter. Friendly baristas and fast service!",
           avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80",
           date: "1 week ago"
         },
         {
           id: 3,
-          name: "Emma Watson",
+          name: "Priya Iyer",
           role: "Pastry & Coffee Lover",
           rating: 5,
           comment: "Pairing their French Butter Croissant with a signature double shot espresso is sheer perfection. Best cafe vibe in town!",
@@ -187,7 +187,7 @@
     <div class="hero-bg-overlay"></div>
     <div class="container hero-container">
       <div class="hero-content">
-        <span class="badge badge-hero" id="hero-city-badge">☕ San Francisco's Favorite Cafe</span>
+        <span class="badge badge-hero" id="hero-city-badge">☕ Mumbai's Favorite Cafe</span>
         <h1 class="hero-title" id="hero-title">Velvet Bean Roasters</h1>
         <p class="hero-tagline" id="hero-tagline">Artisanal Coffee & Fresh Pastries Roasted with Passion</p>
 
@@ -220,7 +220,7 @@
           <span class="section-subtitle">Our Story & Vibe</span>
           <h2 class="section-title">Crafting Special Moments, One Cup at a Time</h2>
           <p class="about-text" id="about-story-text">
-            Founded with a passion for single-origin beans and artisanal roasting, Velvet Bean Roasters offers a cozy retreat in the heart of San Francisco. We source our beans ethically from small-batch farmers and roast them daily for the perfect cup.
+            Founded with a passion for single-origin beans and artisanal roasting, Velvet Bean Roasters offers a cozy retreat in the heart of Mumbai. We source our beans ethically from small-batch farmers and roast them daily for the perfect cup.
           </p>
 
           <div class="about-features">
@@ -322,7 +322,7 @@
             </div>
             <div>
               <h3>Our Address</h3>
-              <p class="address-text" id="cafe-address">452 Espresso Way, Downtown, San Francisco, CA 94105</p>
+              <p class="address-text" id="cafe-address">Cafe Mondegar, 5A Metro House, Shahid Bhagat Singh Road, Colaba, Mumbai, Maharashtra 400001</p>
             </div>
           </div>
 
@@ -345,7 +345,7 @@
         <div class="map-wrapper">
           <iframe 
             id="google-maps-iframe"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.08648873767!2d-122.40134768468205!3d37.78810097975735!2m3!1f0!1f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858079549f4e2f%3A0x8673752e259b3f3b!2sMarket%20St%2C%20San%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1650000000000!5m2!1sen!2sus" 
+            src="https://maps.google.com/maps?q=Cafe%20Mondegar%2C%20Colaba%2C%20Mumbai&t=&z=15&ie=UTF8&iwloc=&output=embed"
             width="100%" 
             height="100%" 
             style="border:0;" 
@@ -374,7 +374,7 @@
             </svg>
             <span id="footer-shop-name">Velvet Bean Roasters</span>
           </a>
-          <p class="footer-tagline" id="footer-tagline">Artisanal coffee brewed fresh daily in San Francisco.</p>
+          <p class="footer-tagline" id="footer-tagline">Artisanal coffee brewed fresh daily in Mumbai.</p>
         </div>
 
         <div class="footer-links-col">
